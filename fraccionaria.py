@@ -1,9 +1,9 @@
 def recibir_fraccion():
-    num=float(input("Introduzca numerador: "))
-    den=float(input("Introduzca denominador: "))
-    while den==0:
+    num = float(input("Introduzca numerador: "))
+    den = float(input("Introduzca denominador: "))
+    while den == 0:
         print("Error:El denominador no puede ser 0. Reintente.")
-        den=float(input("Introduzca denominador: "))
+        den = float(input("Introduzca denominador: "))
     
     return num/den
 
@@ -24,14 +24,14 @@ while op != "=":
     print("Ingrese el siguiente operando")
     nro= recibir_fraccion()
     
-    if op== "+":
+    if op == "+":
         resultado+= nro
-    elif op=="-":
+    elif op =="-":
         resultado-= nro
-    elif op=="*":
+    elif op =="*":
         resultado*= nro
-    elif op== "/":
-        if nro!=0:
+    elif op == "/":
+        if nro != 0:
             resultado/= nro
         else:
             print(f"Operacion no realizada. El divisor no puede ser 0.")
