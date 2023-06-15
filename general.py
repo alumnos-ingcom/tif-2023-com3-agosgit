@@ -21,4 +21,5 @@ while end_menu==False:
         end_menu==True
     else:
         print("Opción incorrecta. Reintente con una de las siguientes opciones:")
+
 x=input("Debug: Aca cierra la interfaz.")

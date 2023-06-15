@@ -23,4 +23,3 @@ def calculadora_clasica():
         op=str(input("Ingresar operación: "))
 
     print(f"{resultado}")
-    #x=input("Presione enter para salir")
