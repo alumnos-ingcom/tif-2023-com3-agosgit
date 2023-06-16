@@ -1,3 +1,12 @@
+def verificar(numero):
+    salida = True
+    try:
+        int(numero)
+    except:
+        salida = False
+    return salida
+
+
 def calculadora_fraccionaria():
     #variables
     nt = 0
@@ -6,13 +15,6 @@ def calculadora_fraccionaria():
     d2 = 0
 
     #ingresar primer fraccion
-    def verificar(numero):
-        salida = True
-        try:
-            int(numero)
-        except:
-            salida = False
-        return salida
 
     nt = input("ingrese numerador: ")
     while(verificar(nt) != True):
