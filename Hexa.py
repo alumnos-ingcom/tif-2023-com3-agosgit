@@ -14,3 +14,15 @@ def str_hexa(valor):
     elif(valor == 15):
         sal = "F"
     return sal
+
+def c_hexa(coc):
+    resto = 0
+    resultado = ""
+
+    while coc >= 16:
+        resto = coc % 16
+        coc = coc // 16
+        resultado = str_hexa(resto) + resultado 
+    resultado = str_hexa(coc) + resultado 
+    print(f"{resultado}")
+    return 0
