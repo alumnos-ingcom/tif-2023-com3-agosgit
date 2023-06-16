@@ -11,7 +11,7 @@ while end_menu==False:
         from clasica import calculadora_clasica
         calculadora_clasica()
     elif op_calc==2:
-        from conversora import c_conversora
+        from conversorag import c_conversora
         c_conversora()
     elif op_calc==3:
         from fraccionaria import calculadora_fraccionaria
