@@ -1,3 +1,6 @@
+from clasica import calculadora_clasica
+from conversorag import c_conversora
+from fraccionaria import calculadora_fraccionaria
 print("Bienvenido a la interfaz que une todas las calculadoras")
 end_menu=False
 while end_menu==False:
@@ -8,13 +11,10 @@ while end_menu==False:
     print("4. Salir")
     op_calc=int(input("Ingrese una opción: "))
     if op_calc==1:
-        from clasica import calculadora_clasica
         calculadora_clasica()
     elif op_calc==2:
-        from conversorag import c_conversora
         c_conversora()
     elif op_calc==3:
-        from fraccionaria import calculadora_fraccionaria
         calculadora_fraccionaria()
     elif op_calc==4:
         print("Programa finalizado")

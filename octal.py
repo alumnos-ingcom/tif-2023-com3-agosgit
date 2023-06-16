@@ -1,6 +1,6 @@
 def c_octal(coc):
-    coc = 0
     resto = 0
+    resultado = ""
 
     while coc >= 8:
         resto = coc % 8
@@ -8,3 +8,4 @@ def c_octal(coc):
         resultado = str(resto) + resultado 
     resultado = str(coc) + resultado 
     print(f"{resultado}")
+    return 0
