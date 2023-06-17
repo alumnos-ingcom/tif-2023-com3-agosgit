@@ -8,6 +8,7 @@ def verificar(numero):
 
 
 def calculadora_fraccionaria():
+    print("Calculadora fraccionaria")
     #variables
     nt = 0
     dt = 0
