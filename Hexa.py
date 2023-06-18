@@ -11,7 +11,7 @@ def str_hexa(valor):
         sal = "D"
     elif(valor == 14):
         sal = "E"
-    elif(valor == 15):
+    else:
         sal = "F"
     return sal
 
