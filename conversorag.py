@@ -20,6 +20,7 @@ def c_conversora():
     coc = verificar_coc(coc)
     
     base = int(input("opcion: "))
+
     if base == 1:
         
         c_bin(coc)
@@ -29,4 +30,5 @@ def c_conversora():
     if base == 3:
         
         c_hexa(coc)
+
 
